@@ -1,0 +1,196 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:22:46] 
+[01:22:46] Server Plugins
+[01:22:46] --------------
+[01:22:46]  Loading plugin: SampSharp.dll
+[01:22:46]   Loaded.
+[01:22:46]  Loading plugin: FileManager.dll
+[01:22:46] ******************
+[01:22:46] ** FILE MANAGER **
+[01:22:46] **    Loaded    **
+[01:22:46] ** Version 1.5 **
+[01:22:46] ******************
+[01:22:46]   Loaded.
+[01:22:46]  Loaded 2 plugins.
+
+[01:22:46] 
+[01:22:46] Filterscripts
+[01:22:46] ---------------
+[01:22:46]   Loaded 0 filterscripts.
+
+[01:22:46]   Filterscript 'empty.amx' loaded.
+[01:22:46] 
+[01:22:46] SampSharp Plugin
+[01:22:46] ----------------
+[01:22:46] v0.8.0, (C)2014-2019 Tim Potze
+[01:22:46] 
+[01:22:46] SampSharp GameMode Client
+[01:22:46] -------------------------
+[01:22:46] v0.8.0, (C)2014-2018 Tim Potze
+[01:22:46] 
+[01:22:46] [SampSharp:INFO] Game mode host running.
+[01:22:46] 
+[01:22:46] ----------------------------------
+[01:22:46]  Blank Gamemode by your name here
+[01:22:46] ----------------------------------
+[01:22:46] 
+[01:22:46] Number of vehicle models: 0
+[01:23:47] [connection] 127.0.0.1:53375 requests connection cookie.
+[01:23:48] [connection] incoming connection: 127.0.0.1:53375 id: 0
+[01:23:48] [join] Shaber_Ninja has joined the server (0:127.0.0.1)
+[01:23:57] [part] Shaber_Ninja has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:06:54] 
+[02:06:54] Server Plugins
+[02:06:54] --------------
+[02:06:54]  Loading plugin: SampSharp.dll
+[02:06:54]   Loaded.
+[02:06:54]  Loading plugin: FileManager.dll
+[02:06:54] ******************
+[02:06:54] ** FILE MANAGER **
+[02:06:54] **    Loaded    **
+[02:06:54] ** Version 1.5 **
+[02:06:54] ******************
+[02:06:54]   Loaded.
+[02:06:54]  Loaded 2 plugins.
+
+[02:06:54] 
+[02:06:54] Filterscripts
+[02:06:54] ---------------
+[02:06:54]   Loaded 0 filterscripts.
+
+[02:06:54]   Filterscript 'empty.amx' loaded.
+[02:06:54] 
+[02:06:54] SampSharp Plugin
+[02:06:54] ----------------
+[02:06:54] v0.8.0, (C)2014-2019 Tim Potze
+[02:06:54] 
+[02:06:54] SampSharp GameMode Client
+[02:06:54] -------------------------
+[02:06:54] v0.8.0, (C)2014-2018 Tim Potze
+[02:06:54] 
+[02:06:54] [SampSharp:INFO] Game mode host running.
+[02:06:54] 
+[02:06:54] ----------------------------------
+[02:06:54]  Blank Gamemode by your name here
+[02:06:54] ----------------------------------
+[02:06:54] 
+[02:06:54] Number of vehicle models: 0
+[02:07:03] [connection] 127.0.0.1:53745 requests connection cookie.
+[02:07:04] [connection] incoming connection: 127.0.0.1:53745 id: 0
+[02:07:04] [join] Shaber_Ninja has joined the server (0:127.0.0.1)
+[02:07:46] [part] Shaber_Ninja has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:11:03] 
+[02:11:03] Server Plugins
+[02:11:03] --------------
+[02:11:03]  Loading plugin: SampSharp.dll
+[02:11:03]   Loaded.
+[02:11:03]  Loading plugin: FileManager.dll
+[02:11:03] ******************
+[02:11:03] ** FILE MANAGER **
+[02:11:03] **    Loaded    **
+[02:11:03] ** Version 1.5 **
+[02:11:03] ******************
+[02:11:03]   Loaded.
+[02:11:03]  Loaded 2 plugins.
+
+[02:11:03] 
+[02:11:03] Filterscripts
+[02:11:03] ---------------
+[02:11:03]   Loaded 0 filterscripts.
+
+[02:11:03]   Filterscript 'empty.amx' loaded.
+[02:11:03] 
+[02:11:03] SampSharp Plugin
+[02:11:03] ----------------
+[02:11:03] v0.8.0, (C)2014-2019 Tim Potze
+[02:11:03] 
+[02:11:03] SampSharp GameMode Client
+[02:11:03] -------------------------
+[02:11:03] v0.8.0, (C)2014-2018 Tim Potze
+[02:11:03] 
+[02:11:03] [SampSharp:INFO] Game mode host running.
+[02:11:03] 
+[02:11:03] ----------------------------------
+[02:11:03]  Blank Gamemode by your name here
+[02:11:03] ----------------------------------
+[02:11:03] 
+[02:11:03] Number of vehicle models: 0
+[02:11:11] [connection] 127.0.0.1:60697 requests connection cookie.
+[02:11:12] [connection] incoming connection: 127.0.0.1:60697 id: 0
+[02:11:12] [join] Shaber_Ninja has joined the server (0:127.0.0.1)
+[02:11:35] [part] Shaber_Ninja has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:48:22] 
+[22:48:22] Server Plugins
+[22:48:22] --------------
+[22:48:22]  Loading plugin: SampSharp.dll
+[22:48:22]   Loaded.
+[22:48:22]  Loading plugin: FileManager.dll
+[22:48:22] ******************
+[22:48:22] ** FILE MANAGER **
+[22:48:22] **    Loaded    **
+[22:48:22] ** Version 1.5 **
+[22:48:22] ******************
+[22:48:22]   Loaded.
+[22:48:22]  Loaded 2 plugins.
+
+[22:48:22] 
+[22:48:22] Filterscripts
+[22:48:22] ---------------
+[22:48:22]   Loaded 0 filterscripts.
+
+[22:48:22]   Filterscript 'empty.amx' loaded.
+[22:48:22] 
+[22:48:22] SampSharp Plugin
+[22:48:22] ----------------
+[22:48:22] v0.8.0, (C)2014-2019 Tim Potze
+[22:48:22] 
+[22:48:22] SampSharp GameMode Client
+[22:48:22] -------------------------
+[22:48:22] v0.8.0, (C)2014-2018 Tim Potze
+[22:48:22] 
+[22:48:22] [SampSharp:INFO] Game mode host running.
+[22:48:22] 
+[22:48:22] ----------------------------------
+[22:48:22]  Blank Gamemode by your name here
+[22:48:22] ----------------------------------
+[22:48:22] 
+[22:48:22] Number of vehicle models: 0
+[22:49:04] [connection] 127.0.0.1:54516 requests connection cookie.
+[22:49:05] [connection] incoming connection: 127.0.0.1:54516 id: 0
+[22:49:05] [join] Shaber_Ninja has joined the server (0:127.0.0.1)
+[22:49:24] [part] Shaber_Ninja has left the server (0:1)
