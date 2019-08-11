@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "tun_sharp": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\ShaBer\\Desktop\\samp\\servers\\tun-sharp\\env",
+      "nativeDebugging": true
+    }
+  }
+}

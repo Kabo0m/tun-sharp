@@ -1,0 +1,20 @@
+TunSharp DB Models
+
+Account
+- Id
+- Username
+- Password
+
+Account_Role
+- Id
+- AccountId
+- RoleId
+
+Role
+- Id
+- RoleContextId
+- Name
+
+RoleContext
+- Id
+- Context

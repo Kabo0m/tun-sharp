@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29102.190
+VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gamemode", "gamemode.csproj", "{77A6C2E5-2D13-4BBF-BC8B-B966909DD695}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tun_sharp", "tun_sharp.csproj", "{C54664B9-DD8F-4432-B9ED-1A4708AC4E07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77A6C2E5-2D13-4BBF-BC8B-B966909DD695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77A6C2E5-2D13-4BBF-BC8B-B966909DD695}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77A6C2E5-2D13-4BBF-BC8B-B966909DD695}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77A6C2E5-2D13-4BBF-BC8B-B966909DD695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C54664B9-DD8F-4432-B9ED-1A4708AC4E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54664B9-DD8F-4432-B9ED-1A4708AC4E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54664B9-DD8F-4432-B9ED-1A4708AC4E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54664B9-DD8F-4432-B9ED-1A4708AC4E07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {42720544-748A-4A85-B527-23E9E8741480}
+		SolutionGuid = {BE3FD8B0-55BF-4F5C-B837-61F49F431188}
 	EndGlobalSection
 EndGlobal

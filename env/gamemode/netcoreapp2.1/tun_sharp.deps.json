@@ -1,12 +1,12 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v2.2",
+    "name": ".NETCoreApp,Version=v2.1",
     "signature": "59f4771d17614b5626251bacd00b0848d0f627cf"
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v2.2": {
-      "gamemode/1.0.0": {
+    ".NETCoreApp,Version=v2.1": {
+      "tun_sharp/1.0.0": {
         "dependencies": {
           "SampSharp.Core": "0.8.0",
           "SampSharp.GameMode": "0.8.0",
@@ -14,7 +14,7 @@
           "SampSharp.Streamer": "0.8.0"
         },
         "runtime": {
-          "gamemode.dll": {}
+          "tun_sharp.dll": {}
         }
       },
       "runtime.native.System/4.3.0": {},
@@ -254,7 +254,7 @@
     }
   },
   "libraries": {
-    "gamemode/1.0.0": {
+    "tun_sharp/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationIcon />
+    <Win32Resource />
+    <StartupObject>tun_sharp.Program</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>C:\Users\ShaBer\Desktop\samp\servers\tun-sharp\env\gamemode\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\ShaBer\Desktop\samp\servers\tun-sharp\env\gamemode\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SampSharp.Core" Version="0.8.0" />
+    <PackageReference Include="SampSharp.GameMode" Version="0.8.0" />
+    <PackageReference Include="SampSharp.RakNet" Version="1.0.2" />
+    <PackageReference Include="SampSharp.Streamer" Version="0.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+</Project>

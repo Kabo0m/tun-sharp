@@ -1,8 +1,9 @@
 ﻿using System;
-using SampSharp.Core;
 
-namespace gamemode
+namespace tun_sharp
 {
+    using SampSharp.Core;
+
     class Program
     {
         static void Main(string[] args)
