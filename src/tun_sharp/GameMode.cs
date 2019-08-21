@@ -5,6 +5,7 @@ using System.Text;
 
 namespace tun_sharp
 {
+    using System.Timers;
     using SampSharp.GameMode;
     using SampSharp.GameMode.Controllers;
     using SampSharp.GameMode.Events;
@@ -12,6 +13,27 @@ namespace tun_sharp
 
     class GameMode : BaseMode
     {
+        private static Timer timer;
+        private static List<BasePlayer> players = new List<BasePlayer>();
+
+        private static void OnTimerTick(Object source, ElapsedEventArgs e)
+        {
+            int id;
+            string name, ip;
+
+            Console.WriteLine("Listing Players");
+
+            foreach (BasePlayer player in players)
+            {
+                id = player.Id;
+                ip = player.IP;
+                name = player.Name;
+                Console.WriteLine($"- {name}({id}) - {ip}");
+            }
+
+            Console.WriteLine("");
+        }
+
         #region overrides of BaseModel
         protected override void OnInitialized(EventArgs e)
         {
@@ -25,6 +47,10 @@ namespace tun_sharp
             DisableInteriorEnterExits();
             UsePlayerPedAnimations();
 
+            timer = new Timer(1000);
+            timer.Elapsed += OnTimerTick;
+            timer.Start();
+
             base.OnInitialized(e);
         }
 
@@ -32,6 +58,7 @@ namespace tun_sharp
         {
             base.OnPlayerConnected(player, e);
 
+            players.Add(player);
             Console.WriteLine($"{player.Name} has joined the server.");
         }
 
@@ -39,6 +66,7 @@ namespace tun_sharp
         {
             base.OnPlayerDisconnected(player, e);
 
+            players.Remove(player);
             Console.WriteLine($"{player.Name} has exited the server.");
         }
 
