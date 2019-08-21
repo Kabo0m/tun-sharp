@@ -58,7 +58,7 @@ namespace tun_sharp
         {
             base.OnPlayerConnected(player, e);
 
-            players.Add(player);
+            players.Add(player); 
             Console.WriteLine($"{player.Name} has joined the server.");
         }
 
