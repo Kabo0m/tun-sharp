@@ -28,7 +28,6 @@ namespace tun_sharp
                 id = player.Id;
                 ip = player.IP;
                 name = player.Name;
-
                 Console.WriteLine($"- {name}({id}) - {ip}");
             }
 
