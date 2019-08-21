@@ -1,20 +1,39 @@
 TunSharp DB Models
 
-Account
-- Id
-- Username
-- Password
+::generic_fields
+- flg_deleted
+- updater_id
+- updated_at
 
-Account_Role
-- Id
-- AccountId
-- RoleId
+# ACCOUNTS
+account
+- id
+- username
+- password
 
-Role
-- Id
-- RoleContextId
-- Name
+account_role
+- id
+- account_id
+- role_id
 
-RoleContext
-- Id
-- Context
+role
+- id
+- role_context_id
+- name
+
+role_context
+- id
+- context
+
+# CHALLENGES
+checkpoint
+- id
+- x
+- y
+- z
+- flg_returnable
+
+checkpoint_connection
+- id
+- cp_origin_id
+- cp_target_id
