@@ -26,6 +26,17 @@ role_context
 - context
 
 # CHALLENGES
+challenge
+- id
+- name
+- difficulty
+- challenge_type_id
+
+challenge_type
+- id
+- name
+- flg
+
 checkpoint
 - id
 - x
@@ -35,5 +46,5 @@ checkpoint
 
 checkpoint_connection
 - id
-- cp_origin_id
-- cp_target_id
+- checkpoint_origin_id
+- checkpoint_target_id

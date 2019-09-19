@@ -34,12 +34,42 @@ namespace tun_sharp
             Console.WriteLine("");
         }
 
+        #region MySQL methods
+        private static void MySQL_OpenConnection()
+        {
+            string info = "server=localhost;user=root;database=tun_db;port=3306;password=";
+            MySql.Data.MySqlClient.MySqlConnection connection = new MySql.Data.MySqlClient.MySqlConnection(info);
+            MySql.Data.MySqlClient.MySqlCommand command;
+
+            try
+            {
+                Console.WriteLine("MySQL: Connecting to 'tun_db' database...\n");
+                connection.Open();
+
+                // TODO: executing queries here
+                command = connection.CreateCommand();
+                command.CommandText = "INSERT INTO account (id, username, password) VALUES (0, 'ShaBer', 'qwerty');";
+                command.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("MySQL: An error occured while atempting to connect to 'tun_db'");
+                Console.WriteLine($"MySQL: - {ex.ToString()}\n");
+            }
+
+            connection.Close();
+            Console.WriteLine("MySQL: Closing connection");
+        }
+        #endregion
+
         #region overrides of BaseModel
         protected override void OnInitialized(EventArgs e)
         {
             Console.WriteLine("\n----------------------------------");
             Console.WriteLine(" The Urban Ninjas");
             Console.WriteLine("----------------------------------\n");
+
+            MySQL_OpenConnection();
 
             SetGameModeText("Parkour");
             AddPlayerClass(29, new Vector3(1626.472045f, -1682.130859f, 13.375000f), 269.1425f);
@@ -49,7 +79,7 @@ namespace tun_sharp
 
             timer = new Timer(1000);
             timer.Elapsed += OnTimerTick;
-            timer.Start();
+            //timer.Start();
 
             base.OnInitialized(e);
         }
