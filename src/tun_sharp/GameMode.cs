@@ -37,23 +37,30 @@ namespace tun_sharp
         #region MySQL methods
         private static void MySQL_OpenConnection()
         {
-            string info = "server=localhost;user=root;database=tun_db;port=3306;password=";
+            string info = "server=localhost;user=root;database=tun;port=3306;password=Camara20";
             MySql.Data.MySqlClient.MySqlConnection connection = new MySql.Data.MySqlClient.MySqlConnection(info);
             MySql.Data.MySqlClient.MySqlCommand command;
 
             try
             {
-                Console.WriteLine("MySQL: Connecting to 'tun_db' database...\n");
+                Console.WriteLine("MySQL: Connecting to 'tun' database...\n");
                 connection.Open();
 
                 // TODO: executing queries here
                 command = connection.CreateCommand();
-                command.CommandText = "INSERT INTO account (id, username, password) VALUES (0, 'ShaBer', 'qwerty');";
+                command.CommandText = "DELETE FROM account";
                 command.ExecuteNonQuery();
+
+                Console.WriteLine("MySQL: all 'account' instances were successfully deleted!\n");
+
+                command.CommandText = "INSERT INTO account (username, password) VALUES ('Ricardo', 'qwerty');";
+                command.ExecuteNonQuery();
+                
+                Console.WriteLine("MySQL: 'account' inserted successfully!\n");
             }
             catch (Exception ex)
             {
-                Console.WriteLine("MySQL: An error occured while atempting to connect to 'tun_db'");
+                Console.WriteLine("MySQL: An error occured while atempting to connect to 'tun'");
                 Console.WriteLine($"MySQL: - {ex.ToString()}\n");
             }
 
