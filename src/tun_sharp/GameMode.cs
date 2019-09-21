@@ -53,7 +53,7 @@ namespace tun_sharp
 
                 Console.WriteLine("MySQL: all 'account' instances were successfully deleted!\n");
 
-                command.CommandText = "INSERT INTO account (username, password) VALUES ('Ricardo', 'qwerty');";
+                command.CommandText = "INSERT INTO account (username, password) VALUES ('ShaBer', 'qwerty');";
                 command.ExecuteNonQuery();
                 
                 Console.WriteLine("MySQL: 'account' inserted successfully!\n");
