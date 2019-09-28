@@ -3,6 +3,7 @@
 namespace tun_sharp
 {
     using SampSharp.Core;
+    using tun_sharp.GameModes;
 
     class Program
     {

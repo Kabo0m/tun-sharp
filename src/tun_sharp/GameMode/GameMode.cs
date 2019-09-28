@@ -3,15 +3,14 @@ using System.Threading;
 using System.Collections.Generic;
 using System.Text;
 
-namespace tun_sharp
+namespace tun_sharp.GameModes
 {
     using System.Timers;
     using SampSharp.GameMode;
-    using SampSharp.GameMode.Controllers;
     using SampSharp.GameMode.Events;
     using SampSharp.GameMode.World;
 
-    class GameMode : BaseMode
+    partial class GameMode : BaseMode
     {
         private static Timer timer;
         private static List<BasePlayer> players = new List<BasePlayer>();
@@ -130,15 +129,6 @@ namespace tun_sharp
             player.SetPositionFindZ(new Vector3(1626.472045f, -1682.130859f, 13.375000f));
 
             Console.WriteLine($"{player.Name} has spawned.");
-        }
-
-        protected override void LoadControllers(ControllerCollection controllers)
-        {
-            base.LoadControllers(controllers);
-
-            /*
-             * TODO: Load or unload controllers here.
-             */
         }
         #endregion
     }
